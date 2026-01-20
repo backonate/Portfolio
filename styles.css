@@ -711,17 +711,11 @@ strong {
 
 .education-logo {
     flex-shrink: 0;
-    width: 70px;
-    height: 70px;
-    background: var(--primary-color);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.1rem;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
 }
 
 .education-content h3 {
@@ -1289,5 +1283,120 @@ strong {
 
     .detail-image-grid-2col {
         grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        height: 250px;
+    }
+
+    .award-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.25rem;
+    }
+
+    .award-icon {
+        margin-bottom: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-line {
+        font-size: 1.8rem;
+    }
+
+    .about-intro {
+        font-size: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .detail-text-column p,
+    .detail-text-content p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .detail-image-column img,
+    .detail-image-column video {
+        width: 100% !important;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero {
+        padding: 4rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-line {
+        font-size: 1.4rem;
+    }
+
+    .hero-name {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 3rem 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .stat {
+        text-align: center;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-content h3 {
+        font-size: 1rem;
+    }
+
+    .project-meta {
+        font-size: 0.8rem;
+    }
+
+    .timeline-card h3 {
+        font-size: 1rem;
+    }
+
+    .experience-brief {
+        font-size: 0.9rem;
+    }
+
+    .education-logo img {
+        width: 60px !important;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.85rem;
+    }
+
+    .footer {
+        padding: 1.5rem;
+        font-size: 0.85rem;
     }
 }
