@@ -1390,6 +1390,14 @@ strong {
         text-align: center;
     }
 
+    .about-headshot {
+        float: none;
+        display: block;
+        margin: 0 auto 1.5rem auto;
+        width: 200px;
+        height: 200px;
+    }
+
     .project-image {
         height: 200px;
     }
