@@ -233,6 +233,17 @@ strong {
     margin-bottom: 2rem;
 }
 
+.about-headshot {
+    float: right;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center 45%;
+    border-radius: 12px;
+    margin: 0 0 1.5rem 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
 .about-main p {
     color: var(--text-medium);
     font-size: 1.05rem;
@@ -1138,32 +1149,45 @@ strong {
 }
 
 .detail-skills h2 {
-    background: var(--text-dark);
+    background: #1a1a2e;
     color: white;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    font-size: 2rem;
-    letter-spacing: 2px;
+    padding: 1.25rem 2rem;
+    margin-bottom: 2.5rem;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     max-width: 900px;
     margin: 0 auto;
 }
 
 .skill-badge {
-    background: var(--text-dark);
-    color: white;
-    padding: 1.5rem;
-    border-radius: 8px;
+    background: white;
+    color: #1a1a2e;
+    padding: 1rem 1.75rem;
+    border-radius: 50px;
     font-weight: 700;
-    font-size: 1.1rem;
-    letter-spacing: 1.5px;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
     text-align: center;
+    border: 2px solid var(--primary);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.25);
 }
 
 .detail-text-content {
