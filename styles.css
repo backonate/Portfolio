@@ -1305,6 +1305,10 @@ strong {
     width: 100%;
 }
 
+.detail-image-column img.micro1-photo {
+    max-width: none;
+}
+
 .iteration-compare img {
     height: 220px;
     width: 100%;
