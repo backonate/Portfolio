@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxygen8 - Mechanical Engineering Intern | Behrad Rakhshanfar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">BEHRAD RAKHSHANFAR</a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="section" style="padding-top: 8rem;">
+        <div class="container">
+            <a href="index.html#experience" class="back-link">&larr; Back to Portfolio</a>
+
+            <h1 style="margin-top: 2rem; margin-bottom: 1rem;">Oxygen8 - Mechanical Engineering Intern</h1>
+            <p style="color: var(--text-light); margin-bottom: 3rem;">June 2026 - Aug 2026 | Vancouver, Canada</p>
+
+            <div class="detail-layout-stacked">
+                <div class="detail-text-column">
+                    <p>
+                        I returned to Oxygen8 for a second work term, this time tasked with creating the wiring
+                        harness for their TERRA H C 2.0 HVAC systems. I optimized electrical routing paths to cut
+                        down on wasted MODBUS cable and standardized those routing paths across the harness. I also
+                        created BOMs and work instructions to reduce assembly time and wire waste, and 3D modelled
+                        the harness routes in SolidWorks Electrical (PDM) for the most efficient assembly process.
+                    </p>
+                    <p>
+                        A key part of this work was tolerancing routes to fixed increments: 12 inches for SOOW
+                        cables and 24 inches for MODBUS cables. This cut down the number of unique part numbers in
+                        the BOMs and applied lean manufacturing principles to the harness. The difference in
+                        increments comes down to cable stiffness. SOOW cable is much stiffer, so excess slack is
+                        hard to bundle and manage. MODBUS cable is far more flexible, so it can use larger
+                        increments while still handling excess length well. On the TERRA H C 1.0 harness I built
+                        the previous year, I toleranced to 3-inch increments and grouped cable lengths within 5
+                        inches. Compared to that approach, this new method cut the number of unique part numbers in
+                        the BOMs by over 60%. It's also estimated to reduce wiring labor by more than 50% and bring
+                        MODBUS cable waste down from 50% to 15%.
+                    </p>
+                    <p>
+                        Alongside the harness work, I created over 70 control box models and drawings for the
+                        TERRA H C 2.0. These were based on electrical specifications, government requirements, and
+                        rough draft drawings from the electrical engineering team. I also updated the BOMs for
+                        accuracy and standardized special part numbers for regular manufacturing. This was critical
+                        because production workers previously had no set drawings or models to build the control
+                        boxes from, and relied on experience and memory alone. The new models also specify pre-cut
+                        mounting holes on the sheet metal parts, removing the need to position components with jigs
+                        and drill holes by hand. That change alone is estimated to reduce assembly labor per
+                        control box by roughly 30%.
+                    </p>
+                    <p>
+                        I also worked closely with the manufacturing engineering team to update sheet metal parts
+                        for the production floor and design a new placement jig for the Ventum H control boxes.
+                        Part of this meant meeting regularly with the production electrical team to hear the
+                        challenges they were facing with specific parts and sheet metals. I took that feedback
+                        and updated models, which were then sent out for manufacturing.
+                    </p>
+                    <p>
+                        Lastly, I updated and created new wiring diagrams and 3D models for new configurations
+                        added to the wiring BOMs. These diagrams were critical for the electrical assembly team:
+                        they substantially increased first-pass yield and left less room for error when wiring
+                        quick connects.
+                    </p>
+                </div>
+                <div class="detail-image-column skills-vcenter">
+                    <img src="images/4dTerra.png" alt="TERRA H C 2.0 wiring harness routing">
+                    <img src="images/1dTerra.png" alt="TERRA H C 2.0 wiring harness routing">
+                    <img src="images/4pQC_wire.png" alt="Quick connect wiring">
+                    <img src="images/18gQC_wire.png" alt="Quick connect wiring">
+
+                    <div class="detail-skills">
+                        <h2>TOP SKILLS UTILIZED</h2>
+                        <div class="skills-grid">
+                            <div class="skill-badge">SOLIDWORKS ELECTRICAL</div>
+                            <div class="skill-badge">LEAN MANUFACTURING</div>
+                            <div class="skill-badge">WIRING HARNESS DESIGN</div>
+                            <div class="skill-badge">ELECTRICAL ROUTING OPTIMIZATION</div>
+                            <div class="skill-badge">SHEET METAL DESIGN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 BEHRAD RAKHSHANFAR. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

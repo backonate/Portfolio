@@ -1305,6 +1305,11 @@ strong {
     width: 100%;
 }
 
+.skills-vcenter .detail-skills {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .detail-image-column img.micro1-photo {
     max-width: none;
     aspect-ratio: 6 / 7;
