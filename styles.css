@@ -1294,6 +1294,11 @@ strong {
     margin-top: 2rem;
 }
 
+.detail-image-column .detail-skills {
+    margin-top: 0;
+    width: 100%;
+}
+
 .iteration-compare img {
     height: 220px;
     width: 100%;
