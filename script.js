@@ -1,3 +1,18 @@
+// Scroll to a link-shared section on arrival, then clean the hash from the
+// URL so a later page refresh loads at the top instead of jumping back there
+if (window.location.hash) {
+    const sharedTarget = document.querySelector(window.location.hash);
+    window.addEventListener('load', () => {
+        if (sharedTarget) {
+            const headerOffset = 80;
+            const elementPosition = sharedTarget.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            window.scrollTo({ top: offsetPosition, behavior: 'auto' });
+        }
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+    });
+}
+
 // Mobile Menu Toggle
 const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
 const navLinks = document.querySelector('.nav-links');
