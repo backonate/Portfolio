@@ -1290,6 +1290,16 @@ strong {
     margin-bottom: 1.5rem;
 }
 
+.detail-text-column .detail-skills {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.detail-text-column .skills-grid {
+    justify-content: flex-start;
+    margin: 0;
+}
+
 .iteration-compare img {
     height: 220px;
     width: 100%;
