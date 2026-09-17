@@ -1297,6 +1297,7 @@ strong {
 .detail-image-column .detail-skills {
     margin-top: 0;
     width: 100%;
+    max-width: 380px;
 }
 
 .iteration-compare img {
