@@ -1307,6 +1307,8 @@ strong {
 
 .detail-image-column img.micro1-photo {
     max-width: none;
+    width: 87%;
+    margin-left: auto;
 }
 
 .iteration-compare img {
