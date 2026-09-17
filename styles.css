@@ -1285,18 +1285,23 @@ strong {
     letter-spacing: 0.3px;
 }
 
+.iteration-compare {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 .iteration-compare img {
-    height: 340px;
+    height: 220px;
     width: 100%;
     object-fit: contain;
-    background: var(--bg-light);
-    padding: 1.5rem;
-    box-sizing: border-box;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
 }
 
 @media (max-width: 768px) {
     .iteration-compare img {
-        height: 260px;
+        height: 200px;
     }
 }
 
