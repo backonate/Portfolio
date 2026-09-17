@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BuE. coli | Behrad Rakhshanfar</title>
+    <title>BuE. coli (Autonomous E. coli Detecting Buoy) | Behrad Rakhshanfar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#experience">Experience</a></li>
                 <li><a href="index.html#projects">Projects</a></li>
-                <li><a href="index.htm1l#skills">Skills</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
                 <li><a href="index.html#education">Education</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
@@ -33,64 +33,80 @@
         <div class="container">
             <a href="index.html#projects" class="back-link">&larr; Back to Portfolio</a>
 
-            <h1 style="margin-top: 2rem; margin-bottom: 1rem;">BuE. coli</h1>
+            <h1 style="margin-top: 2rem; margin-bottom: 1rem;">BuE. coli (Autonomous E. coli Detecting Buoy)</h1>
             <p style="color: var(--text-light); margin-bottom: 3rem;">Sept 2025 - April 2026 | UBC iGEM, Best 3rd Year Project</p>
 
             <div class="detail-layout-stacked">
                 <div class="detail-text-column">
                     <p>
-                        BuE. coli was our UBC 3rd year IGEN capstone: an autonomous buoy that collects, incubates, and
-                        tests water samples for E. coli, then remotely transmits water-quality data to stakeholders
-                        such as Vancouver Coastal Health. The project won Best 3rd Year Project.
+                        BuE. coli was our UBC 3rd year iGEM capstone, which won Best 3rd Year Project: an automatic
+                        E. coli detecting buoy. It was designed to automatically collect, incubate, test, and
+                        remotely transmit water-quality data to stakeholders such as Vancouver Coastal Health.
                     </p>
                     <p>
-                        Metro Vancouver's standard beach monitoring relies on weekly manual sampling and the
-                        culture-based Colilert-18 method, which requires roughly 18 hours of incubation. That
-                        turnaround means results may not reflect rapidly changing water conditions driven by
-                        rainfall, runoff, sewage contamination, wildlife, and tides. Our goal was a system that could
-                        sample and test daily without manual intervention, closing that gap with more frequent data.
+                        During the summer, Metro Vancouver generally collects beach water samples once a week for
+                        laboratory E. coli testing. The culture-based Colilert-18 method requires approximately 18
+                        hours of incubation, meaning results may not reflect rapidly changing water conditions caused
+                        by rainfall, runoff, sewage contamination, wildlife, tides, and other environmental factors.
+                        Our goal was to create a system capable of automatically collecting and testing samples every
+                        day, providing more frequent information without requiring manual sampling.
                     </p>
                     <p>
-                        On the mechanical team, I designed and built the buoy's casing, frame, and incubation system.
-                        Fitting mechanical, electrical, and detection subsystems into a compact, stable, waterproof
-                        enclosure was the central constraint driving the design. My work included 3D modelling the
-                        frame, lid, internal mounting system, heat-insert placements, and component brackets, and
-                        designing for stability and flotation under the full system load. I also built a closed-loop
-                        heating system using a PTC heating element and thermistor to hold samples at approximately
-                        37°C through the 24-hour incubation period, and designed and tested custom test-tube caps to
-                        prevent leakage from vibration and tilting.
+                        On the mechanical team, I designed and built the buoy casing/frame and incubation system. A
+                        major challenge was fitting the mechanical, electrical, and detection systems inside a
+                        compact enclosure while maintaining stability and protecting components from water. My
+                        mechanical work included designing and 3D modelling the buoy frame, lid, internal mounting
+                        system, heat-insert placements, and component brackets, and designing for stability and
+                        flotation under the full system load. I also created a closed-loop heating system using a PTC
+                        heating element and thermistor to maintain samples at approximately 37°C during the 24-hour
+                        incubation period, and designed and tested custom test-tube caps to prevent leakage from
+                        vibration and tilting.
                     </p>
                     <p>
-                        Testing and iteration ran throughout: I validated the buoy under load and confirmed its
-                        stability against small waves, vibration, and pump forces, updating the mechanical design
-                        continuously as the electrical and detection subsystems evolved.
+                        Testing and iteration were also a major part of the work. I tested the buoy under load and
+                        verified its stability against small waves, vibration, and pump forces while continually
+                        updating the mechanical design as other subsystems developed.
                     </p>
                     <p>
                         I was also responsible for researching rapid E. coli detection methods, comparing qPCR,
                         bacterial culturing, microfluidics, and fluorescence-based detection before selecting a
                         fluorescence method developed by the American Society for Microbiology. This involved
-                        incubating E. coli samples in EC MUG broth and using 365 nm UV light with a photodiode to
-                        measure fluorescence. In final lab testing, our sensor readings tracked the trend between
-                        higher and lower E. coli concentrations, verified against qPCR testing of the same samples.
+                        incubating E. coli samples in EC MUG broth and using 365 nm UV light and a photodiode to
+                        measure fluorescence. During final lab testing, our sensor readings successfully followed
+                        trends between higher and lower E. coli concentrations, which we compared against qPCR
+                        testing of the same samples.
                     </p>
                     <p>
-                        The final prototype integrated water intake and filtration, sample dispensing, incubation,
-                        fluorescence-based detection, remote data transmission, solar-assisted power, and a floating
-                        mechanical platform into a single autonomous system.
+                        Our final prototype combined water intake and filtration, sample dispensing, incubation,
+                        fluorescence detection, remote data transmission, solar-assisted power, and a floating
+                        mechanical platform into one system.
                     </p>
+                    <div class="detail-image-grid iteration-compare">
+                        <figure>
+                            <img src="images/ecoliBuoy.png" alt="BuE. coli iteration 1 prototype">
+                            <figcaption class="image-caption">Iteration 1</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/E.coliBuoy2.png" alt="BuE. coli final iteration">
+                            <figcaption class="image-caption">Final Iteration</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="detail-skills">
+                        <h2>TOP SKILLS UTILIZED</h2>
+                        <div class="skills-grid">
+                            <div class="skill-badge">CAD MODELLING</div>
+                            <div class="skill-badge">THERMAL SYSTEM DESIGN</div>
+                            <div class="skill-badge">FLUORESCENCE-BASED DETECTION</div>
+                            <div class="skill-badge">PROTOTYPING & TESTING</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="detail-image-column">
-                    <img src="images/ecoliBuoy.png" alt="BuE. coli Buoy">
-                </div>
-            </div>
-
-            <div class="detail-skills">
-                <h2>TOP SKILLS UTILIZED</h2>
-                <div class="skills-grid">
-                    <div class="skill-badge">CAD MODELLING</div>
-                    <div class="skill-badge">THERMAL SYSTEM DESIGN</div>
-                    <div class="skill-badge">FLUORESCENCE-BASED DETECTION</div>
-                    <div class="skill-badge">PROTOTYPING & TESTING</div>
+                    <img src="images/EcoliprojectShowcase.jpeg" alt="BuE. coli project showcase">
+                    <img src="images/actualBuoy.jpeg" alt="Final BuE. coli buoy">
+                    <img src="images/ecoliTesting.jpeg" alt="BuE. coli lab testing">
+                    <img src="images/ecoliTesting2.jpeg" alt="BuE. coli lab testing">
                 </div>
             </div>
         </div>
